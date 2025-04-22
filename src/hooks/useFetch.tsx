@@ -1,9 +1,3 @@
-import { useState } from "react";
-import { BookSearchResult } from "../types";
-
-const useFetch = () => {
-	const [searchResults, setSearchResults] = useState<BookSearchResult[]>([]);
-	return { searchResults };
-};
+const useFetch = () => {};
 
 export default useFetch;
